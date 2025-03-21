@@ -4,7 +4,6 @@ import BottomAppBar from "./components/nav/BottomBar.jsx";
 import MenuBar from "./components/nav/MenuBar.jsx";
 import {CssBaseline, ThemeProvider} from "@mui/material";
 import {theme} from "./components/ThemeOptions.jsx";
-import Home from "./components/home/Home.jsx";
 
 import Routers from './components/Routers.jsx';
 

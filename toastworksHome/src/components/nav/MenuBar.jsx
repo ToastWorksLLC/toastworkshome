@@ -47,6 +47,8 @@ export default function MenuBar() {
                                 onClose={handleClose}
                             >
                                 <MenuItem component={Link} to="/">Home</MenuItem>
+                                <MenuItem component={Link} to="/services">Services</MenuItem>
+                                <MenuItem component={Link} to="/projects">Projects</MenuItem>
                                 <MenuItem component={Link} to="/about">About Us</MenuItem>
 
                             </Menu>
