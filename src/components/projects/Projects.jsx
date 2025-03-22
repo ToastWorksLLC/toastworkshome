@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import React from "react";
+import React, {useEffect} from "react";
 import {ThemeProvider} from "@mui/material";
 import {theme} from "../ThemeOptions.jsx";
 import Typography from "@mui/material/Typography";
@@ -10,6 +10,9 @@ import createPage from "../../images/createEvent.png";
 import ez3homePage from "../../images/ez3homePage.png";
 export default function Projects() {
 
+    useEffect(() => {
+        console.log('Route loaded:', window.location.pathname);
+    }, []);
 
     return (
         <>

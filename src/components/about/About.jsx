@@ -1,6 +1,6 @@
 import jeff from "../../images/IMG_0243.JPG";
 import Box from "@mui/material/Box";
-import React from "react";
+import React, {useEffect} from "react";
 import {ThemeProvider} from "@mui/material";
 import {theme} from "../ThemeOptions.jsx";
 import IconButton from "@mui/material/IconButton";
@@ -8,6 +8,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function About() {
+
+    useEffect(() => {
+        console.log('Route loaded:', window.location.pathname);
+    }, []);
 
     return (
        <>

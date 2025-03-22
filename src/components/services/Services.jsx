@@ -1,10 +1,14 @@
 import {theme} from "../ThemeOptions.jsx";
 import Box from "@mui/material/Box";
 import {ThemeProvider} from "@mui/material";
-import React from "react";
+import React, {useEffect} from "react";
 
 
 export default function Services() {
+    useEffect(() => {
+        console.log('Route loaded:', window.location.pathname);
+    }, []);
+
     return (
         <>
             <ThemeProvider theme={theme}>
