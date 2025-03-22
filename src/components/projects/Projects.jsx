@@ -16,7 +16,7 @@ export default function Projects() {
             <ThemeProvider theme={theme}>
                 <Box
                     sx={{
-                        padding: { xs: '16px', sm: '24px', md: '32px' }, // Adjusts padding for smaller screens
+                        padding: { xs: '8px', sm: '16px', md: '24px' }, // Adjusts padding for smaller screens
                         borderRadius: '8px', // Keeps corners rounded across all devices
                         backgroundColor: '#f9f9f9',
                         maxWidth: { xs: '100%', md: '800px' }, // Full-width for phones, constrained for larger screens

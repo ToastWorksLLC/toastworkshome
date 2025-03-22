@@ -6,21 +6,25 @@ import {CssBaseline, ThemeProvider} from "@mui/material";
 import {theme} from "./components/ThemeOptions.jsx";
 
 import Routers from './components/Routers.jsx';
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+        <BrowserRouter>
         <CssBaseline>
             <ThemeProvider theme = {theme}>
+
                 <MenuBar />
-              <div>
-                  <Routers />
-              </div>
+                  <div>
+                      <Routers />
+                  </div>
                 <BottomAppBar />
             </ThemeProvider>
         </CssBaseline>
+        </BrowserRouter>
     </>
 
   )

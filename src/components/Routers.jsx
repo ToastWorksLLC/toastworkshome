@@ -1,5 +1,5 @@
 
-import { Route, Routes } from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./home/Home.jsx";
 import About from "./about/About.jsx";
 import Services from "./services/Services.jsx";
@@ -9,6 +9,7 @@ function Routers (){
 
     return(
         <>
+
             <Routes>
 
                 <Route path="/"  element={<Home />} />
