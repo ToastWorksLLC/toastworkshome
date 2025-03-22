@@ -1,0 +1,19 @@
+{
+  "name": "toastworksllc",
+  "compatibility_date": "2025-03-22",
+  "assets": {
+    "directory": "./dist"
+  },
+
+  "routes": [
+    {
+      "pattern": "toastworksllc.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.toastworksllc.com",
+      "custom_domain": true
+    }
+  ]
+}
+
