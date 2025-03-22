@@ -61,9 +61,8 @@ export default function Projects() {
                         }}
                     >EZ-3 LEARN APP</Typography>
                     <p>
-                        <strong>ShowRunner</strong> is a flexible website with several different functions for comics, musicians, and venues to create and showcase events
-                        such as open mics, talent showcases, and performances. In addition, for "ShowRunners", they can allow others to sign up for open mics in advance.
-                        This makes it easy for comics or musicians to know in advance if they are on the show for that night.
+                        <strong>EZ-3 Learn App</strong> is a comic strip creation site that transforms lessons into experiences. Using the SSUP3 model, users will be able to
+                        create cartoons with drag and drop capabilities. Site will be live soon. Built on React and Vite with DND-Kit core.
                     </p>
                     <ImageBar name = 'eZ3' />
                 </Box>
