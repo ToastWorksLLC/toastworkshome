@@ -16,12 +16,13 @@ export default function Projects() {
             <ThemeProvider theme={theme}>
                 <Box
                     sx={{
-                        padding: '32px', // Adds spacing inside the box
-                        borderRadius: '8px', // Rounds the corners for a sleek look
-                        backgroundColor: '#f9f9f9', // Light background for readability
-                        maxWidth: '800px', // Optional: limits the width of the box
-                        margin: 'auto', // Centers the box horizontally
-                        textAlign: 'left', // Aligns text to the left
+                        padding: { xs: '16px', sm: '24px', md: '32px' }, // Adjusts padding for smaller screens
+                        borderRadius: '8px', // Keeps corners rounded across all devices
+                        backgroundColor: '#f9f9f9',
+                        maxWidth: { xs: '100%', md: '800px' }, // Full-width for phones, constrained for larger screens
+                        margin: '16px auto', // Adds spacing around the box on mobile
+                        textAlign: 'left',
+                        boxShadow: { xs: 'none', md: '0 4px 6px rgba(0, 0, 0, 0.1)' }, // Remove shadow for mobile simplicity
                     }}
                 >
                     <Typography

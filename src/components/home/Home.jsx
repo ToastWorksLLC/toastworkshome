@@ -30,7 +30,7 @@ export default function  Home(){
                     textAlign: 'left', // Aligns text to the left inside the box
                 }}
             >
-                <p>Welcome to ToastWorks LCC. Founded in 2025. Use the menu to see our services and current projects. Also, meet the team.</p>
+                <p>Welcome to ToastWorks LCC. Founded in 2025. We offer <strong>custom, technically advanced websites and computer science educational consulting</strong>. Use the menu to learn more!</p>
 
             </Box>
         </Box>

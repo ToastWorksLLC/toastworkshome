@@ -9,6 +9,8 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom'
 import {Button} from "@mui/material";
+import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining';
+
 
 export default function MenuBar() {
 
@@ -39,7 +41,7 @@ export default function MenuBar() {
                             aria-expanded={open ? 'true' : null}
                             onClick={open ? handleClose : handleClick}
                         >
-                            <MenuIcon />
+                            <BreakfastDiningIcon />
                             <Menu
                                 id="basic-menu"
                                 anchorEl={anchorEl}
