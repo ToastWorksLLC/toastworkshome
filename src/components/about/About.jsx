@@ -25,6 +25,7 @@ export default function About() {
                        flexDirection: 'row', // Images and text side-by-side by default
                        justifyContent: 'left',
                        alignItems: 'left',
+                        marginTop: '64px',
                        flexWrap: 'wrap', // Ensures wrapping for smaller screens
                        '@media (max-width: 768px)': { // For screens 768px and smaller
                            flexDirection: 'column', // Stacks the image and text vertically
