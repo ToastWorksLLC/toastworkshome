@@ -31,7 +31,7 @@ export default function  Home(){
                     padding: '1rem',
                 }}
             >
-                <p>Welcome to ToastWorks LCC. Founded in 2025. We offer <strong>custom, technically advanced websites and computer science educational consulting</strong>. Use the menu to learn more!</p>
+                <p>Welcome to ToastWorks LLC. Founded in 2025. We offer <strong>custom, technically advanced websites and computer science educational consulting</strong>. Use the menu to learn more!</p>
 
             </Box>
         </Box>
